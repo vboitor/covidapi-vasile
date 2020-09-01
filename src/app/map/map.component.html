@@ -1,0 +1,13 @@
+<h1>World Map</h1>
+<div style="width:100%; padding:20px;">
+  <google-map>
+    height="500px"
+    width="100%"
+    [zoom]="zoom"
+    [center]="center"
+    [options]="options"
+    (mapClick)="onMapClick($event)"
+  </google-map>
+</div>
+
+

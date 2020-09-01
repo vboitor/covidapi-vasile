@@ -1,0 +1,28 @@
+<div style="padding:20px;">
+<h1>Covid 19 cases in Canada</h1>
+
+<label for="provinces">Choose a province:</label>
+
+<select name="provinces" id="provinces" select (change)="provinceSelected($event.target.value)">
+  <option *ngFor="let province of provinces" [value]="province" >{{province}}</option>
+</select>
+<hr>
+<table>
+  <tr>
+    <td>Date:</td>
+    <td>{{queryDate}}</td>
+  </tr>
+  <tr>
+    <td>Cases:</td>
+    <td>{{nrCases}}</td>
+  </tr>
+  <tr>
+    <td>Deaths</td>
+    <td>{{nrDeaths}}</td>
+  </tr>
+  <tr>
+    <td>Recovered</td>
+    <td>{{nrRecovered}}</td>
+  </tr>
+</table>
+</div>

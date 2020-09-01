@@ -1,0 +1,51 @@
+.covid19-logo{
+  margin-top:10px;
+}
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+mat-toolbar > mat-icon{
+  margin-left: 20px;
+}
+
+.menu-spacer {
+  flex: 1 1 auto;
+}
+span.mat-button-wrapper{
+  width:100px;
+}
+
+.my-footer {
+  background: #3f51b5;
+  -webkit-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8px;
+}
+.my-footer-item {
+  color: #fff;
+  font-size: 12px;
+  height: 20px;
+  flex:1;
+  min-width: 125px;
+  text-align: center;
+}
+
+
+.nav-active{
+  border-bottom: 2px solid lightgray;
+  border-radius: 0;
+}
+
+mat-nav-list a span{
+  padding: 2px 12px;
+  font-size: 12px;;
+}
